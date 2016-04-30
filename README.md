@@ -1,3 +1,4 @@
+﻿# Merchant Trading System - Question JAVA  Solution
 
 Merchant Trading system is a solution to question
 <b>Problem One: Merchant's Guide to the Galaxy</b>
