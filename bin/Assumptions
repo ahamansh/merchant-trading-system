@@ -1,0 +1,17 @@
+
+Assumptions are as followed:
+
+Input related Assumptions:
+	1. Parsing the input is through reg expression
+	2. Inputs are case sensitive and space sensitive
+		Gold is not gold
+		glob is not Glob
+	3. For deciding the market rates e.g. one is I, "one" should be in small letters and I sholuld be in Roman letters
+	4. Credits should start with Capital letter. Credits should not be in decimal or negetive value (For the current system)
+	5. Question should end in " ?" with a space followed by ?
+	6. "how much is" question is used for only Market rate to number conversion should not be used for credits info
+		e.g. hundred one five Bhindi is 987 Credits amd one is I
+			Que: how much is one five Bhindi ?   - XXX--- Will not be considered, as Bhindi is a considered as comodity not market rates ---XXX-
+			Que: how much is one five hundred ? ---> Valid question, if Validation passes :P
+	7. how many Credits is Silver ? (Needs to have a market rate before Comodity)  ---->  "NOT" SAME AS    ----> how many Credits is one Silver ?
+		

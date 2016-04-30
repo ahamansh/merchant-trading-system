@@ -1,0 +1,39 @@
+
+
+System Design:
+	- Is done by relating a intergalactic situation to the current situation on earth itself, i.e. the trading between two countries/states
+	where there is a need to have a common exchange system so as to complete the trading process.
+
+Individual class info is added to the comments in the classes.
+
+Merchant Trading System: 
+		|
+		|-> UserDisplay | For display purpose
+		|
+		|-> Entry | System Entry and start conversation
+		|		
+		|-> System
+				|
+				|--> Factory for the System to instanciate the proper data object
+				|
+				|--> Market Rates : Agreed rated for the plant beings mapped to roman values (Singleton for now)
+				|
+				|--> Comodity | Metals and other valued materials | Has UOM for calculation and differenciation
+				|
+				|--> Constants | System Constants strings and other needed valued across the system
+				|
+				|--> Controller | Interfaces and their implementation | Used to handle business responsibility
+				|
+				|--> Core | Core classes to support the system
+				|
+				|--> Data | data objects for the system | Encapsulated values to be retained
+				|
+				|--> Exception | System related custom exception | Mainly for the validations
+				|
+				|--> Helper | Helper classes for different processes
+				|
+				|--> Validators | Interface and concrete class for the validation purpose
+		|
+		|-> Util | Common utility 
+		|
+		|-> Logger | Providing logging facility to the system. | log4j.properties need to be present in current class path

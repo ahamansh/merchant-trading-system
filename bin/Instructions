@@ -1,0 +1,9 @@
+Instructions for starting the system.
+
+
+-> Import the attached project into your IDE
+-> Run com.mts.entry.StartSystem as java application
+
+The above steps are manual for now which can later be enhanced using maven.
+
+For Testing Scenario you need to have log4j and junit in your build path. You can directly run AllTest Suite to complete the testing process
